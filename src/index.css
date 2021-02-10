@@ -5,8 +5,8 @@ body {
 
 .container {
   background: #eee;
-  width: 320px;
-  height: 550px;
+  width: 185px;
+  height: 450px;
   border-radius: 0.5em;
   box-shadow: 4px 4px 10px 0 rgba(0, 0, 2, 0.3);
   margin: 0 auto;
@@ -18,7 +18,7 @@ body {
 
 .container .result {
   width: 100%;
-  height: 150px;
+  height: 100px;
 }
 
 .container .result p {
@@ -32,7 +32,7 @@ body {
   grid-gap: 1em;
 }
 
-.buttons button {
+.buttons .button {
   cursor: grab;
   text-align: center;
   width: 60px;
@@ -44,7 +44,7 @@ body {
     -6px -6px 16px 0 rgba(255, 255, 255, 0.5);
 }
 
-button .sub {
+.button .sub {
   font-size: 0.8rem;
   color: grey;
 }
