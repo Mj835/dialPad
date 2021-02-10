@@ -12,88 +12,32 @@ class KeyPadComponent extends Component {
           1
         </button>
         <button name="2" onClick={(e) => this.props.onClick(e.target.name)}>
-          2
-          <div
-            className="sub"
-            sname="2"
-            onClick={(e) => this.props.onClick(e.target.sname)}
-          >
-            ABC
-          </div>
+          2<div className="sub">ABC</div>
         </button>
         <button name="3" onClick={(e) => this.props.onClick(e.target.name)}>
-          3
-          <div
-            className="sub"
-            sname="3"
-            onClick={(e) => this.props.onClick(e.target.sname)}
-          >
-            DEF
-          </div>
+          3<div className="sub">DEF</div>
         </button>
         <br />
 
         <button name="4" onClick={(e) => this.props.onClick(e.target.name)}>
-          4
-          <div
-            className="sub"
-            sname="4"
-            onClick={(e) => this.props.onClick(e.target.sname)}
-          >
-            GHI
-          </div>
+          4<div className="sub">GHI</div>
         </button>
         <button name="5" onClick={(e) => this.props.onClick(e.target.name)}>
-          5
-          <div
-            className="sub"
-            sname="5"
-            onClick={(e) => this.props.onClick(e.target.sname)}
-          >
-            JKL
-          </div>
+          5<div className="sub">JKL</div>
         </button>
         <button name="6" onClick={(e) => this.props.onClick(e.target.name)}>
-          6
-          <div
-            className="sub"
-            sname="6"
-            onClick={(e) => this.props.onClick(e.target.sname)}
-          >
-            MNO
-          </div>
+          6<div className="sub">MNO</div>
         </button>
         <br />
 
         <button name="7" onClick={(e) => this.props.onClick(e.target.name)}>
-          7
-          <div
-            className="sub"
-            sname="7"
-            onClick={(e) => this.props.onClick(e.target.sname)}
-          >
-            PQRS
-          </div>
+          7<div className="sub">PQRS</div>
         </button>
         <button name="8" onClick={(e) => this.props.onClick(e.target.name)}>
-          8
-          <div
-            className="sub"
-            sname="8"
-            onClick={(e) => this.props.onClick(e.target.sname)}
-          >
-            TUV
-          </div>
+          8<div className="sub">TUV</div>
         </button>
         <button name="9" onClick={(e) => this.props.onClick(e.target.name)}>
-          9
-          <div
-            className="sub"
-            sname="9"
-            onClick={(e) => this.props.onClick(e.target.sname)}
-          >
-            WXYZ
-          </div>
+          9<div className="sub">WXYZ</div>
         </button>
         <br />
 
